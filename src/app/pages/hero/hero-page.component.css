@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+  font-weight: bold;
+  color: #34495e;
+}
+
+td:last-child {
+  text-align: right;
+  color: #2c3e50;
+}
+
+/* Botones */
+button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Espaciado de botones */
+button + button {
+  margin-left: 10px;
+}
