@@ -1,0 +1,25 @@
+<h2>Anime Super Component</h2>
+<hr>
+
+<section class="row">
+
+  <div class="col-12 col-sm-6">
+
+    <!-- Componente Formulario -->
+    <app-character-form
+      (newCharacter)="variosService.addCharacter($event)">
+    </app-character-form>
+
+  </div>
+
+  <div class="col-12 col-sm-6">
+
+    <!-- Componente Lista -->
+    <app-character-list
+      [listName]="'Listado de Personajes'"
+      [characters]="variosService.characters()">
+    </app-character-list>
+
+  </div>
+
+</section>
